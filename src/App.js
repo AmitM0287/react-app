@@ -1,10 +1,10 @@
 import './App.css';
-import TimerComponent from './components/timer/timer';
+import StopwatchComponent from './components/stopwatch/stopwatch';
 
 function App() {
 	return (
 		<div className="App">
-			<TimerComponent />
+			<StopwatchComponent />
 		</div>
 	);
 }
