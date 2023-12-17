@@ -1,11 +1,22 @@
-.timerCont {
+.timer-cont {
     height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    font-size: 1vmin;
     padding: 0px;
     margin: 0px;
     border-bottom: 1px solid #80808060;
+}
+
+.large-font {
+    font-size: 1.2vmax;
+}
+
+.medium-font {
+    font-size: 1vmax;
+}
+
+.small-font {
+    font-size: 0.8vmax;
 }
